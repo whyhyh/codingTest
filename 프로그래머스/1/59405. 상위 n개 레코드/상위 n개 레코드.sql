@@ -1,5 +1,6 @@
--- 코드를 입력하세요
 SELECT NAME
 FROM ANIMAL_INS
-ORDER BY DATETIME
-LIMIT 1;
+ORDER BY DATETIME ASC
+LIMIT 1
+
+-- 한 개만 추출하고 싶을 땐 맨 밑줄에 LIMIT 1
